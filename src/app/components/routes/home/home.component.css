@@ -1,0 +1,130 @@
+/* HOME */
+
+.title {
+  margin-top: 80px;
+  color: var(--grey50);
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: var(--grey300);
+}
+
+.search {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  border: 1px solid #475069;
+  color: #ffffff;
+  padding: 18px;
+  max-width: 344px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.search::placeholder {
+  font-family: 'Poppins', 'FontAwesome';
+  color: var(--grey600);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.tab {
+  background: var(--black20);
+  display: flex;
+  border-radius: 12px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.item-tab {
+  text-decoration: none;
+  list-style: none;
+  padding: 10px;
+  margin: 8px;
+  border-radius: 8px;
+  width: 33%;
+  text-align: center;
+  cursor: pointer;
+  color: var(--grey300);
+}
+
+.item-tab:hover {
+  background-color: var(--primary400);
+  color: var(--primary50);
+}
+
+.active {
+  background-color: var(--primary400);
+  color: var(--primary50);
+}
+
+.all {
+  color: var(--grey400);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* CARD */
+
+.home .card {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.qualification {
+  position: absolute;
+  color: #FFAD49;
+  background-color: rgba(0, 0, 0, 0.65);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem;
+}
+
+.portada {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card {
+  position: relative;
+  background: var(--black50);
+  color: var(--grey50);
+  border-radius: 12px;
+  padding: 8px;
+  margin: 12px;
+  max-width: 253px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  background: var(--grey50);
+  color: var(--black50);
+}
+
+.card p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title-card {
+  padding: 5px;
+}
+
+.star {
+  top: 18px;
+  left: 18px;
+  position: absolute;
+  color: var(--warning500);
+  background-color: var(--black75);
+  border-radius: 8px;
+  height: 40px;
+  width: 60px;
+}
